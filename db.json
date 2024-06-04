@@ -1,16 +1,84 @@
-{
-      "personalnummer": "P12345",
+[
+    {
       "abteilungsId": "A100",
-      "vorname": "Anna",
-      "name": "Müller",
-      "reise": [
+      "vorgesetzter": {
+        "vorname": "Hans",
+        "name": "Schneider"
+      },
+      "kostenstelle": "KST123"
+    },
+    {
+      "abteilungsId": "A200",
+      "vorgesetzter": {
+        "vorname": "Petra",
+        "name": "Müller"
+      },
+      "kostenstelle": "KST456"
+    },
+    {
+      "abteilungsId": "A300",
+      "vorgesetzter": {
+        "vorname": "Thomas",
+        "name": "Koch"
+      },
+      "kostenstelle": "KST789"
+    },
+    {
+      "abteilungsId": "A400",
+      "vorgesetzter": {
+        "vorname": "Maria",
+        "name": "Bauer"
+      },
+      "kostenstelle": "KST101"
+    },
+    {
+      "abteilungsId": "A500",
+      "vorgesetzter": {
+        "vorname": "Jürgen",
+        "name": "Fischer"
+      },
+      "kostenstelle": "KST202"
+    },
         {
-        "startdatum": "2024-07-10",
-        "endedatum": "2024-07-15",
-        "geplanteKosten": 1200.50,
-        "kostenstelle": "KST123",
-        "zielort": "Berlin",
-        "zweck": "Konferenzbesuch"
+          "projektId": "P001",
+          "projektleiter": {
+            "vorname": "Stefan",
+            "name": "Meyer"
+          },
+          "kostenstelle": "KST321"
+        },
+        {
+          "projektId": "P002",
+          "projektleiter": {
+            "vorname": "Katharina",
+            "name": "Schulz"
+          },
+          "kostenstelle": "KST654"
+        },
+        {
+          "projektId": "P003",
+          "projektleiter": {
+            "vorname": "Michael",
+            "name": "Becker"
+          },
+          "kostenstelle": "KST987"
+        },
+        {
+          "projektId": "P004",
+          "projektleiter": {
+            "vorname": "Sabine",
+            "name": "Hofmann"
+          },
+          "kostenstelle": "KST111"
+        },
+        {
+          "projektId": "P005",
+          "projektleiter": {
+            "vorname": "Johannes",
+            "name": "Wolf"
+          },
+          "kostenstelle": "KST222"
         }
       ]
-}
+      
+  
