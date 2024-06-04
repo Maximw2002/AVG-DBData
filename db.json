@@ -1,16 +1,31 @@
 {
-      "personalnummer": "P12345",
-      "abteilungsId": "A100",
-      "vorname": "Anna",
-      "name": "Müller",
-      "reise": [
-        {
-        "startdatum": "2024-07-10",
-        "endedatum": "2024-07-15",
-        "geplanteKosten": 1200.50,
-        "kostenstelle": "KST123",
-        "zielort": "Berlin",
-        "zweck": "Konferenzbesuch"
-        }   
-      ]
-}
+    "posts": [
+      {
+        "id": 1,
+        "title": "Post 1"
+      },
+      {
+        "id": 2,
+        "title": "Post 2"
+      },
+      {
+        "id": 3,
+        "title": "Post 3"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
