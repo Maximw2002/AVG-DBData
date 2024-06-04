@@ -40,5 +40,47 @@
       },
       "kostenstelle": "KST202"
     }
-]    
+    ]
+    ,"Projekt": [
+            {
+              "projektId": "P001",
+              "projektleiter": {
+                "vorname": "Stefan",
+                "name": "Meyer"
+              },
+              "kostenstelle": "KST321"
+            },
+            {
+              "projektId": "P002",
+              "projektleiter": {
+                "vorname": "Katharina",
+                "name": "Schulz"
+              },
+              "kostenstelle": "KST654"
+            },
+            {
+              "projektId": "P003",
+              "projektleiter": {
+                "vorname": "Michael",
+                "name": "Becker"
+              },
+              "kostenstelle": "KST987"
+            },
+            {
+              "projektId": "P004",
+              "projektleiter": {
+                "vorname": "Sabine",
+                "name": "Hofmann"
+              },
+              "kostenstelle": "KST111"
+            },
+            {
+              "projektId": "P005",
+              "projektleiter": {
+                "vorname": "Johannes",
+                "name": "Wolf"
+              },
+              "kostenstelle": "KST222"
+            }
+    ]
 }
