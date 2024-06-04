@@ -1,72 +1,16 @@
-[
-    {
+{
       "personalnummer": "P12345",
       "abteilungsId": "A100",
       "vorname": "Anna",
       "name": "Müller",
-      "reise": {
+      "reise": [
+        {
         "startdatum": "2024-07-10",
         "endedatum": "2024-07-15",
         "geplanteKosten": 1200.50,
         "kostenstelle": "KST123",
         "zielort": "Berlin",
         "zweck": "Konferenzbesuch"
-      }
-    },
-    {
-      "personalnummer": "P67890",
-      "abteilungsId": "A200",
-      "vorname": "Bernd",
-      "name": "Schmidt",
-      "reise": {
-        "startdatum": "2024-08-05",
-        "endedatum": "2024-08-08",
-        "geplanteKosten": 800.00,
-        "kostenstelle": "KST456",
-        "zielort": "München",
-        "zweck": "Projektbesprechung"
-      }
-    },
-    {
-      "personalnummer": "P11223",
-      "abteilungsId": "A300",
-      "vorname": "Clara",
-      "name": "Weber",
-      "reise": {
-        "startdatum": "2024-09-01",
-        "endedatum": "2024-09-03",
-        "geplanteKosten": 450.75,
-        "kostenstelle": "KST789",
-        "zielort": "Hamburg",
-        "zweck": "Schulung"
-      }
-    },
-    {
-      "personalnummer": "P44556",
-      "abteilungsId": "A400",
-      "vorname": "Dieter",
-      "name": "Fischer",
-      "reise": {
-        "startdatum": "2024-10-10",
-        "endedatum": "2024-10-12",
-        "geplanteKosten": 600.00,
-        "kostenstelle": "KST101",
-        "zielort": "Stuttgart",
-        "zweck": "Messebesuch"
-      }
-    },
-    {
-      "personalnummer": "P78901",
-      "abteilungsId": "A500",
-      "vorname": "Eva",
-      "name": "Koch",
-      "reise": {
-        "startdatum": "2024-11-20",
-        "endedatum": "2024-11-25",
-        "geplanteKosten": 1500.00,
-        "kostenstelle": "KST202",
-        "zielort": "Frankfurt",
-        "zweck": "Forschungskooperation"
-      }
-    }
-  ]
+        }
+      ]
+}
