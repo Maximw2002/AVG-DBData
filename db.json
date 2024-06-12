@@ -1,5 +1,16 @@
 {
-    "antrag": [{}]
+    "antrag": [
+        {
+      "employeeID": "E001",
+      "departmentID": "A201",
+      "firstName": "Maxim",
+      "lastName": "Weidler",
+      "startDate": "28-05-2002",
+      "endDate": "29-05-2002",
+      "plannedCosts": 200,
+      "projectID": "P000"
+    }
+    ]
     ,"abteilung": [
     {
       "abteilungsId": "A100",
