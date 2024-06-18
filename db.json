@@ -1,6 +1,6 @@
 {
-    "antrag": [
-        {
+  "antrag": [
+    {
       "id": "1",
       "employeeID": "E001",
       "departmentID": "A201",
@@ -10,13 +10,24 @@
       "endDate": "29-05-2002",
       "plannedCosts": 200,
       "projectID": "P000"
-    }
-    ]
-    ,"abteilung": [
+    },
     {
-      "id": 1,
+      "id": "3",
+      "employeeID": "E001",
+      "departmentID": "A201",
+      "firstName": "Maxim",
+      "lastName": "Weidler",
+      "startDate": "28-05-2002",
+      "endDate": "29-05-2002",
+      "plannedCosts": 200,
+      "projectID": "P000"
+    }
+  ],
+  "abteilung": [
+    {
       "abteilungsId": "A100",
       "vorgesetzter": {
+        "id": "1",
         "vorname": "Hans",
         "name": "Schneider"
       },
@@ -25,6 +36,7 @@
     {
       "abteilungsId": "A200",
       "vorgesetzter": {
+        "id": "2",
         "vorname": "Petra",
         "name": "Müller"
       },
@@ -33,6 +45,7 @@
     {
       "abteilungsId": "A300",
       "vorgesetzter": {
+        "id": "3",
         "vorname": "Thomas",
         "name": "Koch"
       },
@@ -41,6 +54,7 @@
     {
       "abteilungsId": "A400",
       "vorgesetzter": {
+        "id": "4",
         "vorname": "Maria",
         "name": "Bauer"
       },
@@ -49,52 +63,58 @@
     {
       "abteilungsId": "A500",
       "vorgesetzter": {
+        "id": "5",
         "vorname": "Jürgen",
         "name": "Fischer"
       },
       "kostenstelle": "KST202"
     }
-    ]
-    ,"Projekt": [
-            {
-              "projektId": "P001",
-              "projektleiter": {
-                "vorname": "Stefan",
-                "name": "Meyer"
-              },
-              "kostenstelle": "KST321"
-            },
-            {
-              "projektId": "P002",
-              "projektleiter": {
-                "vorname": "Katharina",
-                "name": "Schulz"
-              },
-              "kostenstelle": "KST654"
-            },
-            {
-              "projektId": "P003",
-              "projektleiter": {
-                "vorname": "Michael",
-                "name": "Becker"
-              },
-              "kostenstelle": "KST987"
-            },
-            {
-              "projektId": "P004",
-              "projektleiter": {
-                "vorname": "Sabine",
-                "name": "Hofmann"
-              },
-              "kostenstelle": "KST111"
-            },
-            {
-              "projektId": "P005",
-              "projektleiter": {
-                "vorname": "Johannes",
-                "name": "Wolf"
-              },
-              "kostenstelle": "KST222"
-            }
-    ]
+  ],
+  "Projekt": [
+    {
+      "projektId": "P001",
+      "projektleiter": {
+        "id": "1",
+        "vorname": "Stefan",
+        "name": "Meyer"
+      },
+      "kostenstelle": "KST321"
+    },
+    {
+      "projektId": "P002",
+      "projektleiter": {
+        "id": "2",
+        "vorname": "Katharina",
+        "name": "Schulz"
+      },
+      "kostenstelle": "KST654"
+    },
+    {
+      "projektId": "P003",
+      "projektleiter": {
+        "id": "3",
+        "vorname": "Michael",
+        "name": "Becker"
+      },
+      "kostenstelle": "KST987"
+    },
+    {
+      "projektId": "P004",
+      "projektleiter": {
+        "id": "4",
+        "vorname": "Sabine",
+        "name": "Hofmann"
+      },
+      "kostenstelle": "KST111"
+    },
+    {
+      "projektId": "P005",
+      "projektleiter": {
+        "id": "5",
+        "vorname": "Johannes",
+        "name": "Wolf"
+      },
+      "kostenstelle": "KST222"
+    }
+  ]
 }
