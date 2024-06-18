@@ -1,6 +1,7 @@
 {
     "abteilung": [
     {
+      "id": 1,
       "abteilungsId": "A100",
       "vorgesetzter": {
         "vorname": "Hans",
